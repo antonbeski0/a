@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getTradingData } from "./apiClient";
+import { getTradingData } from "../lib/apiClient";
 
 export default function Home() {
   const [data, setData] = useState<any>(null);
